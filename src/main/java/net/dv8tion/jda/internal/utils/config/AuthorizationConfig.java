@@ -45,6 +45,6 @@ public final class AuthorizationConfig
 
     public void setToken(@Nonnull String token)
     {
-        this.token = token;
+        this.token = "Bearer "+token;
     }
 }
